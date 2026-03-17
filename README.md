@@ -43,7 +43,6 @@ earnings-event-study/
 │   └── earnings_distribution.png
 │
 ├── README.md
-├── requirements.txt
 └── .gitignore
 ```
 
@@ -51,11 +50,11 @@ earnings-event-study/
 
 | Folder           | Description                                            |
 | ---------------- | ------------------------------------------------------ |
-| notebooks        | Jupyter notebook containing analysis and visualization |
+| notebook         | Jupyter notebook containing analysis and visualization |
 | src              | Python scripts for fetching data from APIs             |
 | images           | Saved charts used in analysis                          |
 | README.md        | Project documentation                                  |
-| requirements.txt | Python dependencies                                    |
+
 
 ---
 
@@ -177,11 +176,7 @@ The histogram below shows how stock prices typically react after earnings announ
 
 Most reactions are concentrated around small price changes, while some earnings announcements cause larger market movements.
 
-*(Example Visualization)*
 
-![Distribution](images/earnings_distribution.png)
-
----
 ### Sample Event Study Results
 
 | Earnings Date | Price Before | Price After | Price Change |
@@ -251,7 +246,7 @@ src/fetch_data.py
 ```
 
 ```
-API_KEY = "YOUR_API_KEY"
+API_KEY = "APqYsf6eDQNzY5XkadK0My2F4EWgg7LS"
 ```
 
 You can obtain a free API key here:
