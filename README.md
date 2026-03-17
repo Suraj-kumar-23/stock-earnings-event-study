@@ -273,6 +273,6 @@ Possible extensions to this project include:
 
 # 👨‍💻 Author
 
-**Vidya Jha**
+**Suraj Kumar**
 
 Practitioner Data Analyst | Python | SQL | Data Analytics
